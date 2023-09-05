@@ -1,0 +1,29 @@
+
+.info-box {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  .info-image {
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  .info-image img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .info-details {
+    flex: 2;
+  }
+  
+  .info-box.left {
+    justify-content: flex-start; 
+    max-width: 400px; 
+  }
+  
