@@ -4,6 +4,7 @@ import React from 'react';
 import InfoBox from './InfoBox';
 import imagem from './../fotos/sasuke.png'
 import { Link } from 'react-router-dom';
+
 function Sasuke() {
   return (
     <div className="Sasuke">
